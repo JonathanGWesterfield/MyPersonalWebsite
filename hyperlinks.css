@@ -1,0 +1,10 @@
+
+  a:hover{
+    color:LightSlateGray;
+  }
+  a:active{
+    color:red;
+  }
+  a:visited{
+    color:LightSlateGray;
+  }

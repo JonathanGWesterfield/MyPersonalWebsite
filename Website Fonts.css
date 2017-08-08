@@ -1,0 +1,21 @@
+header{
+  font-size: 120%;
+  font-family: AvenirNext-Regular
+}
+footer{
+  font-family: AvenirNext-Regular
+  clear: left;
+  padding:40px;
+  text-align:center;
+}
+p{
+  text-align: center;
+  font-size: 200%;
+  font-font-family: AvenirNext-Regular
+}
+h4{
+  display: inline-block;
+}
+h3{
+  font-size:150%;
+}
