@@ -2,20 +2,20 @@
 <html>
 <style>
 .bgImage1{
-  background-image: url('http://kaba35.com/wp-content/uploads/2015/11/Savin-NY-Website-Background-Web.jpg');
+  background-image: url("images/City_Background.jpg");
   background-position: center center;
   background-size: cover;
   height 300px;
 }
 .bgImage2{
-    background-image: url('http://classes.slis.lsu.edu/wu/7008/su13/spic/website/background.jpg');
+    background-image: url("images/Pastel_Polygon_Background(1).png");
     background-position: center center;
     background-size: cover;
     height 300px;
   }
   .bgImage3
   {
-    background-image: url('http://cdn.pcwallart.com/images/houston-skyline-black-and-white-wallpaper-4.jpg');
+    background-image: url("images/Pastel_Gradient.jpg");
     background-position: center center;
     background-size: cover;
     height 300px;
@@ -24,6 +24,8 @@ section{
     padding: -200px;
     overflow: hidden;
   }
+
+.pagebreak { page-break-before: always; } /* page-break-after works, as well */
 
 </style>
 <head>
@@ -39,60 +41,62 @@ section{
 </head>
 <body style="font-family:AvenirNext-UltraLight;padding: 10px 10px 10px 10px">
 <div class="container-fluid">
-  <div class="Website Fonts">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="bgImage1">
-          <div>
-            <header style="font-family:Georgia;font-size:400%;text-align:center;color:Black">
-              Welcome
-            </header>
-          </div>
-        <p style="font-family:AvenirNext-UltraLight;text-align:center;font-size:200%;">
-          My name is Jonathan Westerfield and I am a sophomore Computer Engineering major
-          from Texas A&M University
-        </p>
-        <!--Put Link to Resume Here-->
-        <h2 href="Broken Link to Resume;" style="text-align:center;">
-          <a href="Broken Link to Resume;" style="text-align:left;font-size:150%">
-            My Resum&#233 <!--code is for an accented é-->
-        <br>
-        </a>
-        <button class="button"><span>My Resum&#233 </span></button>
+    <div class="Website Fonts">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="bgImage1">
+            <div>
+              <header style="font-family:Georgia;font-size:400%;text-align:center;color:Black">
+                Welcome
+              </header>
+            </div>
+          <p style="font-family:AvenirNext-UltraLight;text-align:center;font-size:200%;">
+            My name is Jonathan Westerfield and I am a Junior Computer Engineering major
+            from Texas A&M University
+          </p>
+          <!--Put Link to Resume Here-->
+          <h2 href="Broken Link to Resume;" style="text-align:center;">
+            <a href="Broken Link to Resume;" style="text-align:left;font-size:150%">
+              My Resum&#233 <!--code is for an accented é-->
+          <br>
+          </a>
+          <button class="button"><span>My Resum&#233 </span></button>
 
-      </h2>
-      <span style="text-align:center;font-size:200%">
-        <div style="text-align:center;">
-          <a href="Put Past Projects Here;">Past Projects</a>
-          <a href="Put Pictures Here;">Pictures of Me</a>
-          <a href="About.html">About Me</a>
-          <a href="Put About Me Here;">My Goals</a>
-          <a href="Contacts.html">
-            Contact Me</a>
+        </h2>
+        <span style="text-align:center;font-size:200%">
+          <div style="text-align:center;">
+            <a href="Put Past Projects Here;">Past Projects</a>
+            <a href="Put Pictures Here;">Pictures of Me</a>
+            <a href="About.html">About Me</a>
+            <a href="Put About Me Here;">My Goals</a>
+            <a href="Contacts.html">Contact Me</a>
+          </div>
+        </span><br><br><br><br>
+        <center> 
+          <img src = "images/My_MugShot.jpg";style="text-align:center;"My_MugShot.jpg"
+          class="centerImage" alt="My Picture" height="550px" width="550px">
+          <!--<img style="text-align:center;"My_MugShot.jpg"
+          class="centerImage" alt="My Picture" height="580px" width="580px">-->
+          <br><br><br><br><br><br>
+        </center>
         </div>
-      </span><br><br><br><br>
-      <center> 
-      <img src = "No%Background%Tamu%Seal.jpg">
-        <img style="text-align:center;"No+Background+Tamu+Seal.jpg"
-        class="centerImage" alt="Tamu Seal" height="580px" width="580px">
-        <br><br><br><br><br><br>
-      </center>
       </div>
     </div>
   </div>
 </div>
-</div>
+
 <section class="container-fluid">
-  <div class="bgImage2">
+  <div>
     <div class="Website Fonts.css">
       <div style="margin-left: 20%; margin-right: 20%">
+      <br><br><br>
         <header style="font-family:Georgia;font-size:400%;text-align:center;color:Black">
           About Me
         </header>
         <h1>
           High School
         </h1>
-        <p class ="text-align-center" style="font-size:200%;">
+        <p class ="text-align-center" style="font-size:150%;">
           I am from Houston Texas and graduated from Jersey Village Highschool.
           In high school, I participated in the school concert and marching bands,
           and becaming a section leader in the marching band. I took a Java programming
@@ -102,12 +106,46 @@ section{
         <h1>
           University
         </h1>
-        <p class ="text-align-center" style="font-size:200%;">
-          In college I took more courses in computer programming.  Through these
-          courses, I now have a firm grasph of C++, Java, and a working knowledge of SQL and Matlab. In addition,
-          I am starting to learn HTML. I am currently working as a student technician with the Texas A&M Department of
-          Student Affairs as well as being involved in Texas A&M Student Bonfire,.
+        <p class ="text-align-center" style="font-size:150%;">
+          In college I took more courses in computer programming. Through these
+          courses, I now have a firm grasph of C++, Java, and a working knowledge of SQL 
+          and Matlab. In addition, I am starting to learn HTML. I am currently working as 
+          a Student Technician with the Texas A&M Department of Student Affairs as well 
+          as being involved in Texas A&M Student Bonfire.
         </p>
+        <br><br><br>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid">
+  <div  class="bgImage2">
+    <div class="Website Fonts.css">
+      <div style="margin-left: 20%; margin-right: 20%;">
+      <br><br><br>
+        <header style="font-family:Georgia;font-size:400%;text-align:center;color:Black">
+          Contact Me
+        </header>
+        <h1>
+          Cell Phone Number
+        </h1>
+        <p class ="text-align-center" style="font-size:150%;">
+          713-253-6097
+        </p>
+        <h1>
+          Email Address
+        </h1>
+        <p class ="text-align-center" style="font-size:150%;">
+          Jgwesterfield@gmail.com
+        </p>
+        <h1>
+          Current Address
+        </h1>
+        <p class="text-align-center" style="font-size: 150%">
+            Neeley Hall <br> 140 Asbury St, College Station, TX 77840
+          </p>
+        <br><br><br>
       </div>
     </div>
   </div>
